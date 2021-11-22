@@ -8,7 +8,7 @@ let stat = {
     'o': 0,
     'd': 0
 }
-let winIndex = [
+let win_index = [
     [1,2,3],
     [4,5,6],
     [7,8,9],
@@ -63,10 +63,10 @@ function cellClick() {
 }
 
 function checkWin(data) {
-    for(let i in winIndex) {
+    for(let i in win_index) {
         let win = true;
-        for(let j in winIndex[i]) {
-            let id = winIndex[i][j];
+        for(let j in win_index[i]) {
+            let id = win_index[i][j];
             let ind = data.indexOf(id);
 
             if(ind == -1) {
