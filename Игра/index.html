@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik tak toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="currentPlayer">
+            <span>Сейчас ходит: <span id="current">X</span></span>
+        </div>
+
+        <div id="field"></div>
+
+        <div class="stat">
+            <table>
+                <th colspan="2">Статка</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="stepX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="stepO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничья</td>
+                    <td><span id="stepD">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="homework_game.js"></script>
+    </div>
+</body>
+</html>
